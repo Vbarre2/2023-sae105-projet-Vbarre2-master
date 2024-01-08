@@ -378,7 +378,7 @@ button{
     }
 
     .footer__nom {
-        margin-top: 120px;
+        margin-top: 100px;
         margin-right: 5px;
         margin-left: 10px;
         width: 190px;
@@ -387,10 +387,10 @@ button{
     
         color: #ffffff;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1000%;
+        line-height: 900%;
     }
 
     .footer__groupe {
@@ -403,7 +403,7 @@ button{
     
         color: #ffffff;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
@@ -419,7 +419,7 @@ button{
     
         color: #ffffff;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
@@ -435,7 +435,7 @@ button{
     
         color: #FFF;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
@@ -451,7 +451,7 @@ button{
     
         color: #FFF;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
@@ -467,7 +467,7 @@ button{
     
         color: #FFF;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
@@ -477,16 +477,45 @@ button{
         margin-top: -70px;
         margin-right: 5px;
         margin-left: 10px;
-        width: 190px;
-        height: 120px;
+        width: 320px;
+        height: 140px;
         flex-shrink: 0; 
     
         color: #FFF;
         font-family: Sulphur Point;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 110%;
     }
+
+    .footer__text {
+        color: #FFF;
+        font-family: Sulphur Point;
+        font-size: 400px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+    }
+
+    .icon__footer {
+        display: flex;
+        position: relative;
+        top: -20px;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0; 
+        margin: 15px;
+        margin-left: 60px;
+
+    }
+
+    .main__icontiktok {
+        width: 80px; 
+        height: 80px; 
+        margin-top: -16px;
+
+    }
+
 
     
