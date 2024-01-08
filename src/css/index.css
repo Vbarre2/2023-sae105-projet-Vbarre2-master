@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 385px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Suez One', serif;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Suez One', serif;
+}
+
+h3{
+    font-size: 16px;
+    font-family: 'Suez One', serif;
+}
+
+.body1{
+    font-size: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.body2{
+    margin: 15px;
+    font-size: 14px;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.link{
+    font-size: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+header{
+    width: 424px;
+    height: 54px;
+    flex-shrink: 0; 
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+header img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0; 
+    margin: 5px;
+}
+
+header img:last-child {
+    width: 38.693px;
+    height: 39.977px;
+    flex-shrink: 0; 
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+header p{
+    width: 20px;
+    height: 24px;
+    flex-shrink: 0; 
+
+    margin: 15px;
+    position: relative;
+    left: 50px;
+
+    color: #000;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+header h2{
+    width: 156px;
+    height: 24px;
+    flex-shrink: 0;
+
+    margin: 15px;
+    position: relative;
+    left: 55px;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+main{
+    background-color: #A1ABFF;
+}
+
+.main__img1{
+    margin: 30px;
+    width: 324px;
+    height: 162px;
+    flex-shrink: 0; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.main__img2{
+    position: relative;
+    top: 10px;
+    width: 121px;
+    height: 164px;
+    flex-shrink: 0; 
+    margin: 15px;
+}
+
+.main__h2{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    width: 338px;
+    height: 208px;
+    flex-shrink: 0;
+
+    border-radius: 5px;
+    background: #5C64AF; 
+    margin-left: 20px;
+}
+
+.article__body2{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 190px;
+    height: 120px;
+    flex-shrink: 0; 
+
+    color: #FFF;
+    font-family: Sulphur Point;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+button{
+    width: 159px;
+    height: 47px;
+    flex-shrink: 0;
+    
+    border-radius: 23.5px;
+    background: #FFF; 
+
+    color: #000;
+    text-align: center;
+    font-family: Suez One;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+
+    position: absolute;
+    top: 154%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
